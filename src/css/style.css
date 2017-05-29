@@ -1,0 +1,9 @@
+/* Write your css styles here */
+
+.page {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page__battlefield {
+  margin: 10px;
+}
