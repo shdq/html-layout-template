@@ -23,9 +23,10 @@ module.exports = {
            {
            loader: 'postcss-loader', options: {
              plugins: [
-               require('autoprefixer')(),             
-             ]
-           }
+               require('postcss-import')({}),
+               require('stylelint')({}),
+               require('autoprefixer')()
+             ]},	
            }
           ]
         })
@@ -33,12 +34,12 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('styles.css'),
     new StyleLintPlugin({
       context: './src/css',
       files: '*.css',
       failOnError: false,
       quiet: false,
     }),
+    new ExtractTextPlugin('styles.css'),
   ]
 };
