@@ -1,0 +1,10 @@
+.button_theme_red-ochre {
+  border-color: #d2654a;
+  background-color: #e76f51;
+  color: #fff;
+}
+.button_theme_red-ochre:hover {
+  border-color: #d2654a;
+  background-color: #d2654a;
+  color: #fff;
+}
