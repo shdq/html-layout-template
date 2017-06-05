@@ -7,13 +7,19 @@
   <title>html layout template</title>
 </head>
 <body class="page">
-  <div class="page__battlefield">
+  <div class="page__sandbox">
     <h1>html layout template</h1>
-    <h2>BEM blocks</h2>
-    <h3>button</h3>
+    <h2>BEM blocks example</h2>
+    <h3>.button</h3>
     <button class="button" type="button">Button</button>
-    <h3>button_round</h3>
+    <h3>.button .button_theme_red-ochre</h3>
+    <button class="button button_theme_red-ochre" type="button">Button</button>
+    <h3>.button .button_theme_red-ochre disabled</h3>
+    <button class="button button_theme_red-ochre" type="button" disabled>Button</button>
+    <h3>.button .button_round</h3>
     <button class="button button_round" type="button">Button</button>
+    <h3>.button .button_round .button_theme_red-ochre</h3>
+    <button class="button button_round button_theme_red-ochre" type="button">Button</button>
   </div>
   <script src="./dist/bundle.js"></script>
 </body>

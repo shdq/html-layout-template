@@ -1,14 +1,17 @@
 /* Declare you BEM components here */
 
+/* Button block */
+
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_round/button_round.css');
+@import url('../blocks/button/_theme/_red-ochre/button_theme_red-ochre.css');
 
-/* Write your css styles here */
+/* Write your css here */
 
 .page {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
-.page__battlefield {
+.page__sandbox {
   margin: 10px;
 }

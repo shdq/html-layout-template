@@ -8,3 +8,12 @@
   background-color: #d2654a;
   color: #fff;
 }
+.button_theme_red-ochre[disabled]:hover {
+  background-color: #e76f51;
+  color: #fff;
+}
+.button_theme_red-ochre:active {
+  background-color: #e76f51;
+  border-color: #d2654a;
+  color: #fff;
+}
