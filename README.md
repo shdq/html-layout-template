@@ -1,22 +1,26 @@
 # html-layout-template
-Boilerplate for html layout
+BEM friendly boilerplate for html layouting
 
 ## How-to start a project
 Clone project into your directory:
 ``` bash
-$ mkdir new-project
 $ git clone https://github.com/shdq/html-layout-template.git new-project
 $ cd new-project
 ```
 Install dependencies
 ``` bash
-$ npm install --save-dev
+$ npm install
 ```
 Good job! Put some markdown in `index.html` and styles in `src/css/style.css` now.
 
-When you are ready build your project
+Next command will watch for your files and rebuild the project
+``` bash
+$ npm run watch
+```
+
+Check `index.html` in your browser and keep working.
+
+Build your project when you've done
 ``` bash
 $ npm run build
 ```
-
-Check `index.html` in your browser and repeat.
