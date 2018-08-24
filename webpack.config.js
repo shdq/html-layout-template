@@ -18,7 +18,7 @@ module.exports = {
           use: [
            {
            loader: 'css-loader',
-           options: { minimize:false, importLoaders: 1 }
+           options: { minimize:false, importLoaders: 1, url: false }
            },
            {
            loader: 'postcss-loader', options: {
