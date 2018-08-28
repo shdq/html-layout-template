@@ -16,3 +16,12 @@
 @import url('../blocks/button/_theme/_red-ochre/button_theme_red-ochre.css');
 
 /* Write your css here */
+
+body {
+  font-family: 'Helvetica', sans-serif;
+
+  /* next lines for sticky footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
