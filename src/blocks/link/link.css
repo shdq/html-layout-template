@@ -1,0 +1,14 @@
+.link {
+  color: #e76f51;
+  transition: ease-in-out 0.4s;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #d2654a;
+  text-decoration: underline;
+}
+
+.link:active {
+  color: #d2654a;
+}
